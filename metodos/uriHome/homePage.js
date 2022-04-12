@@ -1,6 +1,7 @@
 const homePage = (app) => {
     app.get('/', (req, res) => {
-        res.send('HomePage')
+        console.log('Client in Home Page')
+        res.send('Home Page')
     })
 }
 module.exports = homePage
