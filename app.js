@@ -18,5 +18,5 @@ listarTodosUsuarios(app, usuarios) // lista todos os usuarios existentes
 listarUsuario(app, usuarios) // lista usuario específico da URI
 //sobe um servidor na porta 3000 doh localhoste
 app.listen(3000, () => {
-    console.log('Servidor no ar!')
+    console.log('Loading')
 })
